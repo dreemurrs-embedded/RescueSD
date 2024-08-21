@@ -256,7 +256,7 @@ src/linux-rockchip:
 src/linux-sunxi:
 	@echo "WGET  linux-sunxi"
 	@mkdir src/linux-sunxi
-	@wget https://github.com/megous/linux/archive/orange-pi-5.9-20201019-1553.tar.gz
+	@wget https://codeberg.org/megi/linux/archive/orange-pi-5.9-20201019-1553.tar.gz
 	@tar -xf orange-pi-5.9-20201019-1553.tar.gz --strip-components 1 -C src/linux-sunxi
 
 src/linux-pocketpc:
